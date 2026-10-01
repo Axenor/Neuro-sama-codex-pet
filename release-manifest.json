@@ -1,0 +1,37 @@
+{
+  "repository": "https://github.com/Axenor/Neuro-sama-codex-pet",
+  "project_version": "V1",
+  "release_tag": "v1.0.0",
+  "character": "Neuro-sama V3",
+  "displayName": "Neuro-sama V3",
+  "description": "Neuro-sama V3 Model Pixel Character",
+  "spriteVersionNumber": 2,
+  "atlas": {
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208,
+    "transparent": true
+  },
+  "standard_states": 9,
+  "standard_frames": 57,
+  "look_directions": 16,
+  "production_files": [
+    {
+      "path": "output/neuro-sama-v3/pet.json",
+      "sha256": "849ac2c8a0426460d63239f951f3893b4d6849ea88fba86f3cdd8c7b089dc90a",
+      "bytes": 194
+    },
+    {
+      "path": "output/neuro-sama-v3/spritesheet.webp",
+      "sha256": "82c12b631c6e16bd63de167de0439786dddcff8ea5953b0066097663f1e356a0",
+      "bytes": 499166
+    }
+  ],
+  "preview_timing": "Demonstration GIF timing; playback and triggers are controlled by the client.",
+  "windows_basic_display_verified": true,
+  "all_runtime_triggers_verified": false,
+  "macOS_hardware_tested": false
+}

@@ -62,7 +62,7 @@ Give this prompt to an Agent with network access and local file permissions:
 ```text
 Install the native v2 Codex pet “Neuro-sama V3” from https://github.com/Axenor/Neuro-sama-codex-pet on this computer.
 1. Identify the OS and confirm that the desktop app supports local custom v2 pets.
-2. Download and extract https://github.com/Axenor/Neuro-sama-codex-pet/releases/download/v1.0.0/neuro-sama-v3-v1.0.0.zip. If the release is not yet published, explain this and ask whether to use the repository's output/neuro-sama-v3/ files instead.
+2. Download and extract https://github.com/Axenor/Neuro-sama-codex-pet/releases/download/v1.0.0/neuro-sama-v3-v1.0.0.zip. If the download fails, explain why and ask whether to get the two installation files from the repository's output/neuro-sama-v3/ directory instead.
 3. The archive contains neuro-sama-v3/pet.json and neuro-sama-v3/spritesheet.webp.
 4. Use the CODEX_HOME configured for the running app. If unset, use the user's .codex directory (Windows) or ~/.codex (macOS). The target is pets/neuro-sama-v3/ beneath that directory.
 5. Before writing, verify id=neuro-sama-v3, displayName=Neuro-sama V3, spriteVersionNumber=2, spritesheetPath=spritesheet.webp, and both checksums in SHA256SUMS.
@@ -74,7 +74,7 @@ Install the native v2 Codex pet “Neuro-sama V3” from https://github.com/Axen
 
 ### Download a release
 
-Download and extract [neuro-sama-v3-v1.0.0.zip](https://github.com/Axenor/Neuro-sama-codex-pet/releases/download/v1.0.0/neuro-sama-v3-v1.0.0.zip). This link becomes available after the maintainer publishes the `v1.0.0` release with an attachment of that exact name.
+Download and extract [neuro-sama-v3-v1.0.0.zip](https://github.com/Axenor/Neuro-sama-codex-pet/releases/download/v1.0.0/neuro-sama-v3-v1.0.0.zip).
 
 The extracted directory contains:
 

@@ -62,7 +62,7 @@
 ```text
 请在这台电脑上安装 GitHub 仓库 https://github.com/Axenor/Neuro-sama-codex-pet 的 Codex 原生 v2 桌宠“Neuro-sama V3”。
 1. 识别操作系统；确认当前桌面应用支持本地自定义 v2 宠物。
-2. 下载并解压 https://github.com/Axenor/Neuro-sama-codex-pet/releases/download/v1.0.0/neuro-sama-v3-v1.0.0.zip。若该 Release 尚未发布，则先说明情况；经我选择，可改为从仓库下载 output/neuro-sama-v3/ 中的两个文件。
+2. 下载并解压 https://github.com/Axenor/Neuro-sama-codex-pet/releases/download/v1.0.0/neuro-sama-v3-v1.0.0.zip。若下载失败，请说明原因，并询问我是否改为从仓库的 output/neuro-sama-v3/ 获取两个安装文件。
 3. 解压后的安装文件位于 neuro-sama-v3/pet.json 和 neuro-sama-v3/spritesheet.webp。
 4. 使用应用实际配置的 CODEX_HOME；未设置时，Windows 使用用户主目录下 .codex，macOS 使用 ~/.codex。安装目标为该目录下的 pets/neuro-sama-v3/。
 5. 写入前核对 id=neuro-sama-v3、displayName=Neuro-sama V3、spriteVersionNumber=2、spritesheetPath=spritesheet.webp，并根据包内 SHA256SUMS 校验两个文件。
@@ -74,7 +74,7 @@
 
 ### 下载 Release 安装包
 
-下载 [neuro-sama-v3-v1.0.0.zip](https://github.com/Axenor/Neuro-sama-codex-pet/releases/download/v1.0.0/neuro-sama-v3-v1.0.0.zip) 后解压。此下载链接需仓库维护者发布 `v1.0.0` Release 并上传同名附件后生效。
+下载 [neuro-sama-v3-v1.0.0.zip](https://github.com/Axenor/Neuro-sama-codex-pet/releases/download/v1.0.0/neuro-sama-v3-v1.0.0.zip) 后解压。
 
 解压后的结构：
 
@@ -179,7 +179,7 @@ bash scripts/install.sh --codex-home "/path/to/codex-home"
 ```text
 Neuro-sama-codex-pet/
 ├── README.md / README.en.md   # 中英文介绍与安装说明
-├── NOTICE.md                  # 用户指定的版权声明
+├── NOTICE.md                  # 版权声明
 ├── ASSET-USAGE.md             # 使用说明与声明入口
 ├── ANIMATION-TRIGGERS.md       # 动画与当前客户端触发说明
 ├── CHANGELOG.md               # V1 / v1.0.0 发布说明

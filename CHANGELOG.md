@@ -10,4 +10,4 @@
 - Transparent native v2 atlas, 1536 × 2288 pixels.
 - Chinese/English guides, transparent previews, and two-file installation helpers.
 
-此标签对应项目第一版 V1，角色仍为 Neuro-sama V3，图集格式为 v2。后续动作修改应作为新版本发布。
+此标签对应项目第一版 V1，角色仍为 Neuro-sama V3，图集格式为 v2。
